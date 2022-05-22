@@ -1,0 +1,19 @@
+####----ubuntu----####
+----lex programs------
+lex filename.l
+gcc lex.yy.c
+
+----yaac programs-----
+yaac -d filename.y
+gcc y.tab.c
+
+gcc lex.yy.c y.tab.c
+
+####----windows----####
+----lex programs------
+flex filename.l
+gcc lex.yy.c
+
+----yaac programs-----
+bison -d filename.y
+gcc y.tab.c
