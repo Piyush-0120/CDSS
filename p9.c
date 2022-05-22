@@ -26,7 +26,8 @@ void main()
         printf("\nFIRST(%c) = {",c);
         for(i=0;i<n;i++) 
             printf("%c", first[i]);
-        printf("}\n"); printf("Press 1 to continue:");
+        printf("}\n");
+        printf("Press 1 to continue:");
         scanf("%d%c",&choice,&ch);
         
     }while(choice == 1);
