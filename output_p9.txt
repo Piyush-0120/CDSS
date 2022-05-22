@@ -1,0 +1,27 @@
+4
+Epsilon = $
+E=TD
+D=+TD
+D=$
+T=FS
+S=*FS
+S=$
+F=(E)
+F=a
+Element :E
+
+FIRST(E) = { ( a}
+Press 1 to continue: 1
+Element :D
+
+FIRST(D) = {+ $}
+Press 1 to continue: 1
+Element: T
+
+FIRST(S) = {( a}
+Press 1 to continue: 1
+Element: S
+
+FIRST(S)={ * $}
+Press 1 to continue :0
+
